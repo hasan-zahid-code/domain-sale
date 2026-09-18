@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>transprint.com.pk — Domain For Sale</title>
+<meta name="description" content="transprint.com.pk is for sale. Submit an offer and we will contact you within two business days with price and terms." />
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --text: #0f172a;
+    --muted: #64748b;
+    --border: #e2e8f0;
+    --accent: #0f172a;
+    --error: #dc2626;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 16px;
+  }
+  .card {
+    width: 100%;
+    max-width: 560px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 40px 32px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+  h1 {
+    font-size: 2.25rem;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    margin: 0 0 8px;
+  }
+  .tagline {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #334155;
+    margin: 0 0 16px;
+  }
+  .intro {
+    color: var(--muted);
+    margin: 0 0 8px;
+    line-height: 1.5;
+  }
+  .note {
+    color: #94a3b8;
+    font-size: 0.85rem;
+    font-style: italic;
+    margin: 0 0 32px;
+  }
+  form { display: flex; flex-direction: column; gap: 24px; }
+  .field label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  .required { color: var(--error); }
+  .field input,
+  .field textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    color: var(--text);
+    background: #fff;
+  }
+  .field input:focus,
+  .field textarea:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 1px;
+  }
+  .price-wrap { position: relative; }
+  .price-wrap span {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--muted);
+    pointer-events: none;
+  }
+  .price-wrap input { padding-left: 52px; }
+  .hint {
+    margin: 6px 0 0;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  @media (max-width: 480px) {
+    .row { grid-template-columns: 1fr; }
+    .card { padding: 32px 20px; }
+  }
+  textarea { resize: none; }
+  .error-msg {
+    color: var(--error);
+    font-size: 0.875rem;
+    margin: 0;
+  }
+  button {
+    width: 100%;
+    padding: 14px 32px;
+    border: 1px solid var(--accent);
+    background: var(--accent);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  button:disabled { opacity: 0.5; cursor: not-allowed; }
+  .fine-print {
+    font-size: 0.75rem;
+    color: var(--muted);
+    margin: 0;
+  }
+  .honeypot-field {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+  .thanks h2 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin: 0 0 12px;
+    text-align: center;
+  }
+  .thanks p {
+    color: var(--muted);
+    text-align: center;
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div id="form-view">
+      <h1>transprint.com.pk</h1>
+      <p class="tagline">This domain is for sale</p>
+      <p class="intro">If you are interested in purchasing this domain name, please submit this form.</p>
+      <p class="note">We will contact you back within two business days with price and terms.</p>
+
+      <form id="offer-form" novalidate>
+        <div class="honeypot-field" aria-hidden="true">
+          <label for="bot-field">Don't fill this out</label>
+          <input id="bot-field" name="bot-field" type="text" tabindex="-1" autocomplete="off" />
+        </div>
+
+        <div class="field">
+          <label for="price_offer_pkr">Price Offer in PKR <span class="required">*</span></label>
+          <div class="price-wrap">
+            <span>PKR</span>
+            <input type="number" min="0" step="1" id="price_offer_pkr" name="price_offer_pkr" required placeholder="e.g. 150000" />
+          </div>
+          <p class="hint">Offers under PKR 50,000 are usually not considered.</p>
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label for="first_name">First Name <span class="required">*</span></label>
+            <input type="text" id="first_name" name="first_name" required placeholder="First name" />
+          </div>
+          <div class="field">
+            <label for="second_name">Second Name <span class="required">*</span></label>
+            <input type="text" id="second_name" name="second_name" required placeholder="Second name" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="email">E-Mail <span class="required">*</span></label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com" />
+        </div>
+
+        <div class="field">
+          <label for="confirm_email">Confirm E-Mail <span class="required">*</span></label>
+          <input type="email" id="confirm_email" name="confirm_email" required placeholder="you@example.com" />
+        </div>
+
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" placeholder="+92 3XX XXXXXXX" />
+        </div>
+
+        <div class="field">
+          <label for="comment">Comment</label>
+          <textarea id="comment" name="comment" rows="3" placeholder="Anything else you'd like to add..."></textarea>
+        </div>
+
+        <p class="error-msg" id="error-msg" hidden></p>
+
+        <button type="submit" id="submit-btn">Submit Offer</button>
+
+        <p class="fine-print">*Fields are required (all except phone)</p>
+      </form>
+    </div>
+
+    <div id="thanks-view" class="thanks" hidden>
+      <h2>Thank you for your offer</h2>
+      <p>We've received your submission and will contact you back within two business days with price and terms.</p>
+    </div>
+  </div>
+
+  <script>
+    var WEBHOOK_URL = 'https://n8n.aureusfinancial.com.au/webhook/domain-purchase';
+
+    var form = document.getElementById('offer-form');
+    var errorMsg = document.getElementById('error-msg');
+    var submitBtn = document.getElementById('submit-btn');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      errorMsg.hidden = true;
+
+      // Honeypot: bots fill hidden fields, humans never do
+      if (form.elements['bot-field'].value) return;
+
+      var email = form.elements['email'].value.trim().toLowerCase();
+      var confirmEmail = form.elements['confirm_email'].value.trim().toLowerCase();
+      if (email !== confirmEmail) {
+        errorMsg.textContent = 'Email and Confirm Email do not match.';
+        errorMsg.hidden = false;
+        return;
+      }
+
+      var payload = {
+        price_offer_pkr: form.elements['price_offer_pkr'].value,
+        first_name: form.elements['first_name'].value,
+        second_name: form.elements['second_name'].value,
+        email: form.elements['email'].value,
+        confirm_email: form.elements['confirm_email'].value,
+        phone: form.elements['phone'].value,
+        comment: form.elements['comment'].value,
+        domain: 'transprint.com.pk',
+      };
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Submitting…';
+
+      fetch(WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      })
+        .then(function (res) {
+          if (!res.ok) throw new Error('Request failed');
+          document.getElementById('form-view').hidden = true;
+          document.getElementById('thanks-view').hidden = false;
+        })
+        .catch(function () {
+          errorMsg.textContent = 'Something went wrong submitting the form. Please try again.';
+          errorMsg.hidden = false;
+        })
+        .finally(function () {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Submit Offer';
+        });
+    });
+  </script>
+</body>
+</html>
